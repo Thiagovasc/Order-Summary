@@ -32,7 +32,7 @@ body {
 }
 
 main {
-    background-color: var(--VeryPaleBlue);
+    background-color: white;
     max-width: 400px; 
     border-radius: 1rem 1rem 0 0;
 }
@@ -45,12 +45,15 @@ main section {
     height: 100%;
     width: 100%;
     padding: 0 2rem;
+    border-radius: 1rem;
 }
 
 .main-picture {
+    display: block;
     width: 100%;
     border-radius: 1rem 1rem 0 0;
 }
+
 section > h1 {
     margin: 2rem 0 1rem 0;
     text-align: center;
@@ -62,31 +65,38 @@ main span {
     color: var(--DesaturatedBlue);
 }
 
-.plan-info {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    width: 100%;
+.plan-info { 
+    display: flex; 
+    align-items: center; 
+    width: 100%; 
     background-color: var(--VeryPaleBlue);
-    margin: 2rem
+    margin: 2rem; 
+    border-radius: 10px; 
+    padding: 10px; 
+    margin-left: auto;
 }
 
 .plan-offer {
     display: flex;
     flex-direction: column;
+    margin-right: 3rem;
 }
+
 .plan-offer > h2 {
     font-size: 1rem;
     font-weight: 700;
 }
-.plan-info img {
-    justify-content: flex-start;
+
+.plan-info img { 
+    justify-content: flex-start; 
     max-width: 100%;
-}
+    margin-right: 1rem; 
+} 
 
 .plan-info a {
     color: var(--BrightBlue);
     font-weight: 500;
+    margin-left: 3rem;
 }
 
 .order {
